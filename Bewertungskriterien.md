@@ -182,7 +182,7 @@ Software, Redeanteile) gibt es nicht.
 ### Beschreibung
 
 *Ziel* des Projektberichts ist es, das gelernte Wissen der jeweiligen
-Blöcke anhand von gegebenen Aufgaben auf ein ausgewältes Produkt[^2]
+Blöcke anhand von gegebenen Aufgaben auf ein ausgewähltes Produkt[^2]
 anzuwenden.
 
 *Formell* gelten die üblichen Ansprüche an eine wissenschaftliche Arbeit
@@ -201,9 +201,9 @@ finden kann.
 
 ---
 
-[^1]: Rahmenbedingugen:
+[^1]: Rahmenbedingungen:
     [[hier]{.ul}](https://www.tu-berlin.de/asv/menue/gremien/kommissionen_des_as/hinweise_zur_allgstupo/hinweise_zu_portfoliopruefungen/)
 
-[^2]: Im ersten Druchlauf zur besseren Vergleichbarkeit bei allen
+[^2]: Im ersten Durchlauf zur besseren Vergleichbarkeit bei allen
     Gruppen identisch. Später wollen wir auch mal verschiedene Produkte
     ausprobieren.
