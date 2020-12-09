@@ -85,7 +85,7 @@ wichtiger, dass sie die Werkzeuge dieser Welt beherrschen. Denn es wird
 sich nie etwas ändern, wenn diejenigen, die das technische Verständnis
 haben und, wie in eurem Fall, auch die Notwendigkeit erkannt haben,
 grundsätzlich etwas an unserem Umgang mit Technik zu ändern, gegen die
-Verkäufer und Schönrechner dieser Welt auf dem Spielfeld des Vortrags
+Verkäufer und Schönredner dieser Welt auf dem Spielfeld des Vortrags
 mit Equipment aus dem letzten Jahrtausend antreten. Das wäre ja fast,
 als würde man zu einem Gunfight, naja, Bulletpoints mitbringen...
 (großes Sorry geht an dieser Stelle raus an alle
@@ -169,7 +169,7 @@ uns folgende Kriterien mit folgenden Gewichten überlegt:
 
 Aussagekraft (30%)
 :	Es wird klar, welcher Inhalt mit der
-Präsentation vermittelt werden soll, welche Botschaft ihr den Zuhöreden
+Präsentation vermittelt werden soll, welche Botschaft ihr den Zuhörenden
 mitgeben wollt. Die gewählte Präsentationsform unterstützt die
 Vermittlung dieses Inhalts.
 
