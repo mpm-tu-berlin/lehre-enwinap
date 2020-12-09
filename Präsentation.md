@@ -112,32 +112,20 @@ irgendwer hätte etwas dazu gesagt...):
 
 ## Vortragsarten
 
--   TED Talk
+-   TED Talk [(hier)](https://www.ted.com/talks/chris_anderson_ted_s_secret_to_great_public_speaking)
 
-	-   <https://www.ted.com/talks/chris_anderson_ted_s_secret_to_great_public_speaking>
-
--   Science Slam
-
-	-   <https://www.youtube.com/watch?v=GBVxDy2wx-g>
-
--   Story telling
-
-	-   <https://www.youtube.com/watch?v=D9Ihs241zeg> (auch ein gutes
+-   Science Slam [(hier)](https://www.youtube.com/watch?v=GBVxDy2wx-g)
+-   Story telling [(hier)](https://www.youtube.com/watch?v=D9Ihs241zeg) (auch ein gutes
 		TED beispiel)
 
--   Idea/Product Pitch
+-   Idea/Product Pitch [(hier)](https://www.youtube.com/watch?v=66tEqUX1XKo) und [(hier)](https://www.youtube.com/watch?v=vN4U5FqrOdQ)
 
-	-   https://www.youtube.com/watch?v=66tEqUX1XKo
-
-	-   <https://www.youtube.com/watch?v=vN4U5FqrOdQ>
 
 ## Vortragsstile
 
 -   Freier Vortrag
 
--   Whiteboard Animation
-
-	-   <https://www.youtube.com/watch?v=i68a6M5FFBc>
+-   Whiteboard Animation [(hier)](https://www.youtube.com/watch?v=i68a6M5FFBc)
 
 -   Takahashi Method
 
