@@ -1,4 +1,3 @@
-
 ---
 title: "Prüfungsleistungen und Bewertungskriterien"
 subtitle: "Entwicklungsmethoden Nachhaltiger Produkte"
@@ -126,17 +125,27 @@ Selbstständigkeit
 
 Vollständigkeit
 
-:   Wir erwarten, dass jeder Themenblock bearbeitet wird.
+:   Wir erwarten, dass jeder Themenblock bearbeitet wird. Das bedeuted nicht, 
+    dass die Studierenden den gesamten Inhalt der Themenblöcke reproduzieren
+    sollen, sondern, dass sie sich mit jedem Themenblock auseinander setzen 
+    und diesen reflektieren sollen.
 
 Inhalt
 
-:   Wir möchten die Kerninhalte unserer Themenblöcke (oder dass, was die
-    Studierenden als Kerninhalte wahrnehmen) wiedererkennen.
+:   Wir möchten einen oder mehrere Kerninhalte unserer Themenblöcke 
+    (oder dass, was die Studierenden als Kerninhalte wahrnehmen) wiedererkennen.
+    Wie im Bereich *Vollständigkeit* hervorgehoben, sollen die Inhalte der 
+    Themenblöcke reflektiert werden, die Studierenden sollen sich in einer 
+    selbstgewählten Form mit den behandelten Themenblöcken auseinander setzen.
+    Das bietet die Möglichkeit, sich beispielsweise sehr detailliert mit einer 
+    Kernthematik auseinander zu setzen oder die gesamten Kerninhalte hollistisch
+    zu betrachten oder einen Weg dazwischen zu wählen. Dies ist den Studierenden 
+    freigestellt.
 
 Struktur
 
-:   Die Inhalte sollten sinnvoll Anhalt des *Inhalts* strukturiert und
-    kategorisiert sein, nicht bloß so, wie dir Vorlesung ablief.
+:   Die Inhalte sollten sinnvoll Anhand des *Inhalts* strukturiert und
+    kategorisiert sein, nicht bloß so, wie die Vorlesung ablief.
 
 Eigene Gedanken
 
