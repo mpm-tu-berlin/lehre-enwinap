@@ -52,8 +52,8 @@ geschieht auf GitLab unter
   Name                       Typ   Gewichtung
   ---------------- ------------- ------------
   Name                       Typ   Gewichtung
-  Lernjournal        individuell         50 %
-  Präsentation            Gruppe         10 %
+  Lernjournal        individuell         40 %
+  Präsentation            Gruppe         20 %
   Projektbericht          Gruppe         40 %
 
   : Zusammensetzung der Gesamtnote
