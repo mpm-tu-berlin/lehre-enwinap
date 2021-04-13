@@ -9,12 +9,16 @@
 
 set -e
 
-redo clean
+pdflatex Bewertungskriterien
+biber Bewertungskriterien
+pdflatex Bewertungskriterien
 
-redo Aufgabe.htm
-redo Aufgabe.pdf
+pdflatex Präsentation
+biber Präsentation
+pdflatex Präsentation
 
-redo Bewertungskriterien.htm
-redo Bewertungskriterien.pdf
+pdflatex Aufgabe
+biber Aufgabe
+pdflatex Aufgabe
 
-git add Aufgabe.htm Aufgabe.pdf Bewertungskriterien.htm Bewertungskriterien.pdf
+git add Aufgabe.pdf Bewertungskriterien.pdf Präsentation.pdf
