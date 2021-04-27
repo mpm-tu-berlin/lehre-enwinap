@@ -1,5 +1,5 @@
 % Print
-\documentclass[DIV=15,headinclude=true]{scrartcl}
+\documentclass[headinclude=true]{scrartcl}
 
 %Packages, die für die deutsche Sprache erforderlich sind
 \usepackage[utf8]{inputenc}
@@ -23,6 +23,8 @@
 %Noch schönere Typographie
 \usepackage{microtype}
 
+\usepackage{todonotes}
+
 %Kästen
 \usepackage{framed}
 
@@ -41,7 +43,7 @@
 \begin{document}
 %%%%% BEGINN TITEL %%%%%
 \title{Projektaufgabe}
-\subtitle{Entwicklungsmethoden Nachhaltiger Produkte}
+\subtitle{Entwicklungsmethoden für nachhaltige Produkte}
 \author{EnWiNaP-Team}
 \maketitle
 %%%%% ENDE TITEL %%%%%
@@ -52,95 +54,55 @@
 
 
 %%%%% BEGINN INHALT %%%%%
-\begin{framed}
 
-	Als grobe Richtlinie für den Umfang der Arbeit könnt ihr
-	\textasciitilde30 Seiten annehmen. Im Allgemeinen gilt jedoch: Kürzer
-	ist (so lange alle Aufgaben bearbeitet sind) besser!
 
-\end{framed}
+\section{Einleitung}
 
-\section{Hintergrund}
+Viele Produkte die wir im Alltag nutzen, haben teils gravierende ökologische und/oder soziale Auswirkungen. 
+Sie werden aus Rohstoffen und Materialien hergestellt, die in ihrer Herstellung Umweltschäden hervorrufen oder unter menschenunwürdigen Bedingungen abgebaut werden (z.B. Tantal für Mikroelektronik \cite{Schippers.2020}). Viele Inhaltsstoffe können darüber hinaus eine Gefahr für die Gesundheit der Nutzenden bedeuten (z.B. Inhaltsstoffe in Plastik \cite{BUND.2021}).
+Das Design vieler Produkte ist auf eine kurze Nutzungsdauer ausgerichtet und erschwert oder verhindert ein Reparieren häufig auftretender Mängel zugusten von schnelleren und günstigeren Produktionsprozessen (z.B. verklebte Handydisplays). Diese Problematik wird durch den Trend verstärkt, dass immer mehr Produkte auf regelmäßige Softwareupdatens angewiesen sind.
+So kann ein voll funktionsfähiges Smart-TV nutzlos werden, wenn das Modell für die neusten Softwareversionen nicht mehr unterstützt wird.
+Ein weiteres Problem ist die Schwierigkeit, die Materialien in heutigen Produkte zu einem akzeptablen Grad zu recyceln. Und nicht zuletzt geht die Produktion vieler Produkte mit einer Ausbeutung der Produzierenden einher \cite{Kollross.2017}.
 
-Smartphones sind für die überwiegende Mehrheit der Menschen in
-Deutschland ein fester Bestandteil des Alltags und des
-Selbstverständnisses geworden. Sie werden für die Arbeit, für die
-Informationsbeschaffung, zum Einkaufen und natürlich für die Gewinnung
-von und Interaktion mit sozialen Kontakten genutzt. Der Psychologe
-Christian Montag beschreibt dies als ``ausgelagertes Gehirn'', welches
-des Menschen Vorteile dabei verschafft, ihren Alltag zu meistern
-\cite{Spanke2019}. Gleichzeitig sieht er aber auch, dass sich ein
-Suchtverhalten und Konditionierungsmechanismen einstellen, die die
-Menschen dazu bringen, immer mehr Zeit mit diesen Geräten zu verbringen
-und ihnen einen hohen Stellenwert in ihrem Leben einzuräumen. Das
-erklärt auch, dass in Deutschland im Jahr 2019 rund 22 Millionen
-Smartphones verkauft wurden \cite{Tenzer2020}; weltweit waren es in
-diesem Zeitraum über 1,3 Milliarden Geräte \cite{Tenzer2020a}. Obwohl
-die Verkaufszahlen in den letzten Jahren leicht rückläufig sind, sind
-dies immer noch beeindruckende Mengen an technischen Geräten. Technische
-Geräte, die kritische Ressourcen benötigen welche kaum recycelt werden,
-für hohe Schadstoffemissionen sowie für einen hohen Wasser- und
-Energieverbrauch verantwortlich sind, immer wieder mit ausbeuterischen
-und gefährlichen Arbeitsbedingungen in Verbindung gebracht werden und im
-Schnitt lediglich 33 Monate genutzt werden \cite{Jardim2017, Odea2020}.
+Da es außer dem Energielabel für Elektrogeräte keine verpflichtenden Ratings für die Nachhaltigkeit von Produkten gibt, ist es für die Endkund*innen sehr schwer einzuschätzen, wie schädlich das gekaufte Produkt wirklich ist. Und selbst verlässliche Studien, die die Auswirkungen der Produkte konkurrierender Hersteller vergleichen, sind nicht ohne weiteres zu finden, sodass der Wunsch nachhaltigere Produkte zu kaufen für die Mehrzahl der Nutzer*innen schwer umsetzbar ist.
 
-Es stellt sich die Frage, ob in einer Gesellschaft, die immer mehr nach
-nachhaltigen Produkten verlangt, dieses Verständnis des Smartphones noch
-zeitgemäß ist. Und tatsächlich beweisen kleine Firmen wie Fairphone
-(\url{https://www.fairphone.com/de/}) oder Shift
-(\url{https://www.shiftphones.com/}), dass es bereits einen (wenn auch
-kleinen) Markt für Smartphones gibt, die eine höhere Nachhaltigkeit
-versprechen.
+Für einige Produkte gibt es bereits gute Ansätze, die negativen Auswirkungen zu minimieren. Beispiel sind hier z.B. faire und ökologische Kleidung und auf Nachhaltigkeit hin optimierte Smartphones wie Shift\footnote{www.shiftphones.com} oder Fairphone\footnote{www.fairphone.com/de}. Doch auch solche Produkte können über Rebound-Effekte unter dem Strich wieder eine negative Bilanz aufweisen da sie den Kund*innen vermitteln, hier mit gutem Gewissen konsumieren zu können und so zu noch mehr Konsum anregen.
+So stellt sich die Frage, ob die reine Verringerung der negativen Auswirkungen von Produkten überhaupt einen positiven Effekt haben kann \cite{Carstens.2018, Braungart.2013}.
+Endverbraucher*innen bleibt zwar die Möglichkeit, second-hand oder überarbeitete Produkte zu kaufen um ihren negativen Einfluss zu reduzieren. Doch für die überwiegende Mehrzahl von alltäglich genutzten Produkten suchen wir bei der Neubeschaffung heute noch vergeblich nach nachhaltigen Alternativen.
 
-Aber lässt sich so wirklich etwas verändern? Gibt es Rebound-Effekte
-oder ist das Ganze vielleicht sogar nur ``Greenwashing''? Könnte ein
-umgedachtes Produkt den (schädlichen) Umgang der Nutzer\_innen
-verändern? Und ließe sich mit einem wirklich nachhaltigeren Smartphone
-ein Business Case aufmachen?
+Das sollte sich ändern!
 
-\subsection{Fallstudie}
+\subsection{Die Aufgabe}
 
-Die oben gestellten Fragen haben euch dazu bewegt, aktiv zu werden. Als
-junge Ingenieur\_innen seht ihr hier eine Herausforderung, der ihr euch
-gerne stellen möchtet. Wäre es nicht eine Möglichkeit, als Startup
-Smartphones komplett neu zu denken um den Kunden ein faires,
-nachhaltigeres und langlebigeres Produkt anbieten zu können?
+Die oben vorgestellte Problemstellung hat euch dazu bewegt, aktiv zu werden. Als junge Ingenieur*innen seht ihr hier eine Herausforderung, der ihr euch gerne stellen möchtet. 
+Ihr habt (natürlich) direkt eine Idee im Kopf, welches Produkt unbedingt nachhaltiger gestaltet werden müsste. Eure Aufgabe in diesem Semester ist es nun, euch der Verbesserung dieses Produktes methodisch zu nähern. 
 
-Als ersten Schritt wollt ihr mit diesem Bericht eine grundsätzliche
-Analyse des Sachverhaltes liefern. Er soll den ist-Zustand des Produktes
-beleuchten und mithilfe bestehender Studien dessen Probleme
-herausarbeiten. Außerdem soll eine Abschätzung der Potentiale für ein
-verbessertes Produkt erfolgen. Dabei sollen Überlegungen zu den Werten
-der Technologie, relevanten Stakeholdern, geeigneten Konstruktions- und
-Entwicklungsmethoden sowie den Arbeitsbedingungen einfließen. Außerdem
-soll der Ansatz für eine Lebenszyklusanalyse aufgestellt werden, um die
-sozialen, monetären und ökologischen Auswirkungen der neuen Produktidee
-quantifizieren zu können. Zusammenfassend wollt ihr mit diesem Bericht
-folgende übergeordnete Fragestellung beantworten:
+Als ersten Schritt wollt ihr eine grundsätzliche Analyse des Sachverhaltes liefern. Diese soll den ist-Zustand des Produktes beleuchten und mithilfe bestehender Studien dessen Probleme herausarbeiten. 
+Außerdem soll eine Abschätzung der Potentiale für ein verbessertes Produkt erfolgen. Dabei sollen Überlegungen zu den Werten der Technologie, relevanten Stakeholdern sowie den Arbeitsbedingungen einfließen. Außerdem soll der Ansatz für eine Lebenszyklusanalyse aufgestellt werden, um die sozialen, monetären und ökologischen Auswirkungen der neuen Produktidee quantifizieren zu können. 
+Schließlich sollt ihr geeigneten Konstruktions- und Entwicklungsmethoden dafür nutzen, basierend auf den zuvor angestellten Analysen ein konzeptuelles Design eines hinsichtlich der Nachhaltigkeit verbesserten Produktes zu entwickeln. 
 
-\emph{Kann ein kleines in Deutschland ansässiges Unternehmen die
-	Nachhaltigkeit eines Smartphones in allen Dimensionen signifikant
-	steigern?}
+Das Ziel ist es, dass ihr ein schlüssiges Konzept vorweisen könnt, dessen Funktionalität und Verbesserungspotential in einzelnen Nachhaltigkeitsdimensionen durch die im Rahmen der Veranstaltung gelehrten Methoden nachgewiesen ist. 
 
-\section{Technik \& Werte}
+\subsection{Bericht}
+Der Bericht über eure Studie soll die technischen und methodischen Aspekte eures Entwicklungsprozesses kompakt in der Form eines technisch/wissenschaftlichen Berichtes dokumentieren. Das bedeutet, dass ihr euch an die Vorgaben des wissenscahftlichen Schreibens haltet. Dazu gehört unter anderem auch das korrekte Zitieren von genutztem geistigen Eigentum/Wissen aus anderen Quellen. Als oberes Limit für die Seitenzahl sind 30 Seiten festgelegt. Im Allgemeinen gilt jedoch: Kürzer ist (so lange alle Aufgaben bearbeitet sind) besser. 
+Überschreitungen dieses Limits ohne vorherige Absprache und Bestätigung durch eine Dozent*in führen zu Punktabzug! Als kleine Motivation: Wissenschaftliche Publikationen sind nicht selten auf 10 Seiten begrenzt, auf denen komplette Versuche/Studien beschrieben und die Ergebnisse genannt und diskutiert werden müssen.
+
+\subsection{Präsentation}
+Die Präsentation soll die Eigenschaften, Vorzüge und vor allem die Verbesserungen in der Nachhaltigkeit eures Produktes hervorheben um Interessent*innen, Investor*innen und Kund*innen für euer Produkt zu gewinnen. Dafür sind euch keine Grenzen in der Wahl der Präsentationsform und der genutzten Hilfsmittel gesetzt. Das bedeutet, Werbevideos, Schauspiel oder gestellte Podiumsdiskussion mit euch als Expert*innen wären einige Beispiele für mögliche kreative Vortragsstile. Aber natürlich schließt die freie Wahl des Stils auch die klassische Powerpoint-Präsentation mit ein. 
+
+\section{Arbeitspakete}
+
+\subsection{Technik \& Werte}
 
 \begin{enumerate}
 	\item
-	      Welche Techniken und Technologien verwendet das Produkt aus der
-	      Projektaufgabe? Wie können sie kategorisiert werden? (Empfehlung:
-	      Mindmap o. Ä. für eine mögliche Kategorisierung, andere kurz
-	      erläutern)
+	     Welche Techniken und Technologien verwendet das Produkt aus der Projektaufgabe? Wie können sie kategorisiert werden? (Empfehlung: Mindmap o. Ä. für eine mögliche Kategorisierung, andere kurz erläutern)
 	\item
-	      Beschreibt, warum das Produkt der Projektaufgabe als
-	      ``Organerweiterung'' oder ``Gehirnerweiterung'' betrachtet werden
-	      kann, um Mängel des Menschen auszugleichen, und warum als Ausdruck des
-	      ``Machbaren'', als Selbstzweck, dem die Kultur- und Wertvorstellungen
-	      untergeordnet wurden. Welche Beschreibung macht mehr Sinn? Sind alle
-	      Gruppenmitglieder derselben Meinung? Wenn nicht, verfasst zwei
-	      Absätze, die beide Meinungen darstellen.
+	      Beschreibt, ob und warum das Produkt der Projektaufgabe dazu dient, Mängel des Menschen auszugleichen, und warum dies als Ausdruck des “Machbaren” verstanden werden kann, dem die Kultur- und Wertvorstellungen untergeordnet wurden. Welche Beschreibung ist sinnvoller? Sind alle Gruppenmitglieder derselben Meinung? Wenn nicht, erörtert (Deutsch LK anyone?) dies in eurem Bericht.
 \end{enumerate}
 
-\section{Technikbewertung} \label{technikbewertung}
+\subsection{Technikbewertung} \label{technikbewertung}
+In diesem Arbeitspaket sollt ihr euch zunächst mit dem bestehenden Produkt beschäftigen. Anschließend sollt ihr die Unterschiede herausarbeiten, die eure Produktidee hier hervorruft.
 
 \begin{enumerate}
 	\item
@@ -155,15 +117,14 @@ folgende übergeordnete Fragestellung beantworten:
 		            In welchem Verhältnis stehen diese Werte zueinander? (Empfehlung:
 		            Diagramm wie VDI 3780 Bild 3)
 		      \item
-		            Was sind typische Entwicklungsziele für das Produkt der
-		            Projektaufgabe (Ist- und Sollzustand)? \label{entwicklungsziele}
+		            Was sind typische Entwicklungsziele für euer Produkt (Ist- und Sollzustand)? \label{entwicklungsziele}
 		      \item
 		            Wie stehen die Entwicklungsziele im Zusammenhang mit den Werten?
 		            Erstelle ein Diagramm/Abbildung, das die Hierarchie und
 		            Interaktionen der Werte und Ziele vereinigt.
 	      \end{enumerate}
 	\item
-	      Vorsorgeprinzip/Nachsorgeprinzip
+	      Vorsorgeprinzip/Nachsorgeprinzip \todo{Ludger: Geht das besser?}
 
 	      \begin{enumerate}
 		      \item
@@ -175,14 +136,14 @@ folgende übergeordnete Fragestellung beantworten:
 	      \end{enumerate}
 \end{enumerate}
 
-\section{Anforderungsanalyse}
+\subsection{Anforderungsanalyse}
 
 Wie kommen wir von den Entwicklungszielen (Abschnitt \ref{technikbewertung} Aufgabe
 \ref{entwicklungsziele}) zu den Anforderungen?
 
 \begin{enumerate}
 	\item
-	      Aufstellen der Anforderungen in Form einer Anforderungsliste.
+	      Aufstellen der Anforderungen in Form einer Anforderungsliste. \todo{Ludger: Vielleicht doch Benchmarking?}
 
 	      \begin{enumerate}
 		      \item
@@ -190,108 +151,48 @@ Wie kommen wir von den Entwicklungszielen (Abschnitt \ref{technikbewertung} Aufg
 		            Identifiziert diese und ordnet diese den verschiedenen
 		            Entwicklungszielen zu. Diskutiert auch den Fokus der Stakeholder.
 		      \item
-		            Welche Anforderungen können diese Stakeholder an das Produkt der
-		            Projektaufgabe haben? Wie lassen sich Konflikte zwischen den
-		            Anforderungen lösen? Verwendet dafür die übergeordneten Werte aus
-		            Technikbewertung. Sammelt eure Gedanken in Form eines Brainstormings
+		            Welche Anforderungen können diese Stakeholder an euer Produkt  haben? Wie lassen sich Konflikte zwischen den
+		            Anforderungen lösen? Verwendet dafür die übergeordneten Werte die ihr in Abschnitt \ref{technikbewertung} identifiziert habt. Sammelt eure Gedanken in Form eines Brainstormings
 		            und bildet Cluster für die Stakeholder.
 	      \end{enumerate}
 \end{enumerate}
 
-\section{Energie und Material}
+\subsection{Energie und Material}
+\label{energie_material}
 
-\subsection{Lebenszykluskosten (Life Cycle Costing)}
+\subsubsection{Lebenszykluskosten (Life Cycle Costing)}
 
-Zu dem Thema "`Computer System Life Cycle Costing"' wird euch
-\href{https://tubcloud.tu-berlin.de/s/nLs4njSqBxrXLS3}{hier}\footnote{\texttt{https://tubcloud.tu-berlin.de/s/nLs4njSqBxrXLS3}}
-eine Forschungsarbeit zur Verfügung gestellt. Beantwortet bitte die
-folgenden Fragen:
+\todo[inline]{Wir geben euch ein oder zwei Paper mit beispielhaften LCC-Rechnungen. Eure Aufgabe ist es nun, die LCC (aus der Sicht des Endkunden) für euer Produkt darzustellen. Ermittelt zunächst die unterschiedlichen Kostenkategorien, die für den Kunden entstehen. Ermittelt anhand von ähnlichen Produkten oder nachvollziehbaren Schätzungen quantitativ die Kosten. Beantwortet zusätzlich folgende Frage: "`Gibt es externalisierte oder versteckte Kosten, die mit dem Produkt entstehen und nicht vom Kunden bezahlt werden?"'\\Fraglich:\\"`Identifiziert die Hauptkostentreiber?"'\\"`Vergleich mit Ausgangsprodukt (das bestehende Produkt, das verbessert werden soll)?"'}
 
-\begin{enumerate}
-	\item
-	      Schreibt einen Bericht über die Lebenszykluskosten von
-	      Computersystemen
-	\item
-	      Nehmen wir an, dass die Anschaffungskosten (Acquisition Cost) und die
-	      erwartete Nutzungsdauer eines Computersystems 500 € bzw. 3 Jahre
-	      betragen. Die erwartete Anzahl der Ausfälle des Computersystems pro 1
-	      Millionen Stunden liegt bei 80, und die einzigen Betriebskosten des
-	      Systems sind die Kosten der korrektiven Wartung (Maintenance Cost).
-	      Rechnet die Lebenszykluskosten eines Computersystems aus, wenn die
-	      Kosten für jeden korrektiven Wartungseinsatz 150 € und der jährliche
-	      Rabatt oder Zinssatz 6\% betragen.
-	\item
-	      Erläutert die größten Schwierigkeiten bei der Schätzung der
-	      Softwarekosten
-	\item
-	      Erläutert die Faktoren, die die Software-Lebenszykluskosten
-	      beeinflussen
-	\item
-	      Was ist der Unterschied zwischen den Kosten für Computerhardware und
-	      -software?
-	\item
-	      Erläutert Methoden der Software-Kostenschätzung
-\end{enumerate}
+\subsubsection{Material Flow Analysis}
 
-\subsection{Material Flow Analysis}
-
-In den Anhängen befinden sich zwei Forschungsarbeiten:
-
-\begin{enumerate}
-	\item
-	      Material Flow Analysis and Energy Requirements of Mobile Phone
-	      Material Recovery Processes
-	      (\href{https://tubcloud.tu-berlin.de/s/TPze3EZKfX9EEaf}{Link}\footnote{\texttt{https://tubcloud.tu-berlin.de/s/TPze3EZKfX9EEaf}})
-	\item
-	      Quantitative Analysis of Material Flow of Used Mobile Phones in Japan
-	      (\href{https://tubcloud.tu-berlin.de/s/fEJRArZMbxyQeX8}{Link}\footnote{\texttt{https://tubcloud.tu-berlin.de/s/fEJRArZMbxyQeX8}})
-\end{enumerate}
-
-Bitte beantwortet nach dem Lesen und Analysieren der Papiere die
-folgenden Fragen:
-
-\begin{enumerate}
-	\item
-	      Welche Komponenten wurden in der Materialflussanalyse für die
-	      Mobiltelefone als die folgenden betrachtet
+Lest folgende zwei Arbeiten zu unterschiedlichen Sichtweisen auf die MFA (\href{https://publik.tuwien.ac.at/files/PubDat_229081.pdf}{Link\footnote{\url{https://publik.tuwien.ac.at/files/PubDat_229081.pdf}}}, \href{http://dx.doi.org/10.1111/jiec.12354}{Link\footnote{\url{http://dx.doi.org/10.1111/jiec.12354}}})
 
 	      \begin{enumerate}
 		      \item
-		            Stoffe (Substances)
+		            Inwieweit haben die aufgeführten Studien eine Relevanz für euer Produkt? Welche Aspekte könnten übernommen werden?
+		     
 		      \item
-		            Waren (Goods)
-		      \item
-		            Aktivität (Activity)
-		      \item
-		            Fluss und Strömung (Flow \& Flux)
+		            Für welche Materialien/Bestandteile eures Produktes seht ihr einen klaren Handlungsbedarf über die angegeben Studien hinaus weitere Analysen durchzuführen? Findet ihr hierfür bereits durchgeführte Studien in der Literatur?
+                \item
+            	      Erarbeitet Ziel und Untersuchungsrahmen für eine eigene MFA zu den Bestandteilen eures Produktes, welche noch nicht genügend von Arbeiten in der Literatur abgedeckt sind
+            	      
+    	      \item
+    	           Freiwillige Zusatzaufgabe/Ersatzaufgabe für die Aufgaben 1 - 3 aus diesem Aufgabenpaket: Erarbeitet eine eigene MFA für euer Produkt. Dokumentiert dabei die Quellen für eure Daten sowie die Annahmen die ihr (zwangsweise) an bestimmten Punkten trefft.
+        	      
+    	      \item 
+    	            (wieder für alle) Formuliert eine Zusammenfassende Stellungnahme zu den Materialflüssen eures Produktes basierend auf gelesenen Studien und eigenen Untersuchungen. Identifiziert hier Aspekte, die im Rahmen eurer Produktverbesserung berücksichtigt werden müssen um euer Produkt nachhaltiger zu machen.
 	      \end{enumerate}
-	\item
-	      Was wurde als System definiert und was sind die Systemgrenzen?
-	\item
-	      Wie ist die Auswahl der Substanzen eurer Meinung nach durchgeführt
-	      worden?
-	\item
-	      Welche Rolle spielt die Energie, um Mobiltelefone nachhaltig zu
-	      machen?
+	
 
-	      \begin{enumerate}
-		      \item
-		            Wie wird das Recycling oder die Rückgewinnung der Telefone auf der
-		            Basis von Energie- und Materialfluss nachhaltig gestaltet?
-		      \item
-		            Schlagt Schritte oder Methoden vor, die ihr im Hinblick auf die
-		            Durchführung einer Materialflussanalyse für das Mobiltelefon anders
-		            durchgeführt hättet.
-	      \end{enumerate}
-\end{enumerate}
-
-\subsection{Ökobilanz und Social Life Cycle Assessmentn eines Smartphones}
+\subsubsection{Ökobilanz und Social Life Cycle Assessmentn eines Smartphones}
+\label{ökobilanz}
 
 Erstellung einer Ökobilanz sowie eines Social LCAs
 
 \begin{enumerate}
 	\item
-	      Recherchiert bereits durchgeführte Studien zu Smartphones
+	      Recherchiert bereits durchgeführte Studien zu eurem Referenzprodukt oder vergleichbaren Produkten
 
 	      \begin{enumerate}
 		      \item
@@ -300,40 +201,29 @@ Erstellung einer Ökobilanz sowie eines Social LCAs
 		            der Wirkungsabschätzung, Ergebnisse
 		      \item
 		            Wer hat die Studie durchgeführt? An wen ist die Studie adressiert?
-		            Spielen die von euch definierten Stakeholder eine Rolle
-		            (Anforderungsanalyse 1.a)? Wenn ja, welche? Wenn nein, wieso werden
+		            Spielen die von euch definierten Stakeholder eine Rolle? Wenn ja, welche? Wenn nein, wieso werden
 		            diese hier nicht angesprochen?
 		      \item
-		            Zieht ein Fazit: Was wird in den Studien gut und ausreichend
-		            abgebildet, wo seht ihr Mängel? Was würdet ihr an den Studien wie
-		            verändern?
+		            Zieht ein Fazit: Was wird in den Studien gut und ausreichend abgebildet, wo seht ihr Mängel? Was würdet ihr an den Studien wie verändern?
 	      \end{enumerate}
 	\item
 	      Erarbeitet Ziel und Untersuchungsrahmen für eine eigene Ökobilanz bzw.
-	      ein eigenes social life cycle assessment eines Smartphones mit Hilfe
-	      der DIN EN ISO 14040 und DIN EN ISO 14044
+	      ein eigenes social life cycle assessment für euer Produkt anhand der DIN EN ISO 14040 und DIN EN ISO 14044
 	\item
-	      Erarbeitet eine Aufstellung der benötigten Daten für eine Sachbilanz:
-	      Materialien, Energie, Stakeholdergruppen, mögliche EoL-Wege (Hier
-	      sollt ihr nicht Daten suchen, sondern bestimmen, welche Daten benötigt
-	      werden)
+	      Erarbeitet eine Aufstellung der benötigten Daten für eine Sachbilanz: Materialien, Energie, Stakeholdergruppen, mögliche EoL-Wege (Hier sollt ihr nicht Daten suchen, sondern bestimmen, welche Daten benötigt werden)
 	\item
-	      Freiwillige Zusatzaufgabe/Ersatzaufgabe für Aufgabe 1a-c (ggf.
-	      Mehraufwand) - Eigenes Arbeiten mit OpenLCA und Ecoinvent (Datenbank
-	      kann vom Fachgebiet bereitgestellt werden): Baut mit Hilfe der
-	      Datenbank Ecoinvent eine Ökobilanz für ein Smartphone auf (mit Hilfe
-	      von Aufgabenteil 2 und 3); führt eine Wirkungsabschätzung sowie eine
-	      Auswertung durch und dokumentiert die Durchführung und die Ergebnisse
+	      Freiwillige Zusatzaufgabe/Ersatzaufgabe für Aufgabe 1a-c aus diesem Aufgabenpaket (ggf.Mehraufwand) - Eigenes Arbeiten mit OpenLCA und Ecoinvent (Datenbank kann vom Fachgebiet bereitgestellt werden): Baut mit Hilfe der Datenbank Ecoinvent eine Ökobilanz für euer Referenzprodukt und eurer optimiertes Produkt (mit Hilfe von Aufgabenteil 2 und 3); führt eine Wirkungsabschätzung sowie eine Auswertung durch und dokumentiert die Durchführung und die Ergebnisse
 \end{enumerate}
 
-\section{Arbeitswelt}
+\subsection{Arbeitswelt}
+\label{Arbeitswelt}
 
 \begin{enumerate}
 	\item
 	      Aufstellen eines Produktionsprozesses (gesamte Wertschöpfungskette)
 	      für das Produkt.
 	\item
-	      Ziehen einer geeigneten Systemgrenze (wie weit kann euer (kleines)
+	      Ziehen einer geeigneten Systemgrenze (wie weit kann euer 
 	      unternehmen die Kette beeinflussen)
 	\item
 	      Untersuchung der Produktionsschritte innerhalb der Systemgrenze.
@@ -348,52 +238,36 @@ Erstellung einer Ökobilanz sowie eines Social LCAs
 	      Bezug auf die ProduzentInnen, die Qualität des Produktes, die Kosten
 \end{enumerate}
 
-\section{Konstruktionsmethoden}
+\subsection{Konstruktionsmethoden}
 
 \begin{enumerate}
 	\item
-	      \textbf{Bewertung}. Den Umwelteinfluss des Produktes (wie es heute
-	      ist) und seines Herstellungsprozesses bewerten.
+	      \textbf{Bewertung des Ist-Zustandes}. Bewertet die ökologischen und sozialen Auswirkungen des Produktes (wie es heute ist) und die seines Herstellungsprozesses. Bezieht hier auch Erkenntnisse aus den Aufgaben \ref{Arbeitswelt} und \ref{energie_material} mit ein. 
 
 	      \begin{enumerate}
 		      \item
-		            Eine von den präsentierten Methoden auswählen und für die
-		            Produktbewertung benutzen. \textbf{Wichtig}: \underline{begründen}
-		            warum das spezifische Tool ausgewählt wurde.
+		            Wählt eine von den präsentierten Methoden aus und benutzt sie für die Produktbewertung. Begründet warum das spezifische Tool ausgewählt wurde.
+		      \item \label{1b}
+		            
+		            Identifiziert anhand der ausgewählten Methode die relevantesten Aspekte des Produktes. Welche (Bau)Teile / Herstellungsprozesse / Materialen haben den größten (negativen) Einfluss? Wo
+		            gibt es Verbesserungspotentiale?
+		            
+		            \underline{Freiwillige Zusatzaufgabe:} Wählt eine zusätzliche Methode aus (Auswahl begründen) und wiederholt die Bewertung. Wie ähnlich sind die Ergebnisse? Werden neue wichtige Aspekte aufgezeigt?
 		      \item
-		            Anhand der ausgewählten Methode, die Umweltrelevantesten Aspekten
-		            des Produktes identifizieren. Welche Teile / Herstellungsprozessen /
-		            Materialen haben den größten (negativen) Einfluss auf die Umwelt? Wo
-		            gibt es Verbesserungspotential?\\
-		            ~\\
-		            \underline{Freiwillige Zusatzaufgabe:} eine zusätzliche Methode
-		            auswählen (Auswahl begründen) und die Bewertung wiederholen. Wie
-		            ähnlich sind die Ergebnisse? Werden neue wichtige Aspekte gezeigt?
-		      \item
-		            Den Umweltrelevantesten Aspekt für Schritt 2 (Re-Design) auswählen.
-		            Auswahl \underline{begründen}!
+		            Wählt den bezogen auf die Nachhaltigkeit relevantesten Aspekt eures Produktes für Schritt 2 (Re-Design) aus und begründet eure Auswahl anhand der Ergebnisse der vorherigen Aufgaben.
+		            
 	      \end{enumerate}
 	\item
-	      \textbf{Re-Design}. Die Ergebnisse von Schritt 1 weitererentwickeln,
-	      um das Produkt nachhaltiger zu gestalten.
+	      \textbf{Re-Design}. Nutzt die Ergebnisse aus Schritt 1 um euer Produkt nachhaltiger zu gestalten
 
 	      \begin{enumerate}
 		      \item
-		            Eine Eco-Design Strategie auswählen. Wo soll der Fokus liegen --
+		            Wählt eine Eco-Design Strategie aus und überlegt euch dabei, wo der Fokus liegen soll --
 		            z.B. Recycling / Abbau / Repair usw\ldots{}
 		      \item
-		            Verbesserungskonzepten brainstormen.
+		            Entwickelt im Team Verbesserungskonzepte.
 		      \item
-		            Eine von den präsentierten Methoden auswählen und für die
-		            Konzeptbewertung benutzen. \textbf{Wichtig}: \underline{begründen}
-		            warum das spezifische Tool ausgewählt wurde.\\
-		            ~\\
-		            \underline{Freiwillige Zusatzaufgabe:} eine zusätzliche Methode
-		            auswählen (Auswahl begründen) und die Bewertung wiederholen. Wie
-		            ähnlich sind die Ergebnisse? Werden neue wichtige Aspekte gezeigt?
-		      \item
-		            Anhand der ausgewählten Methode, die Konzepte vergleichen und das
-		            beste Konzept auswählen.
+		            Bewertet das (weiter)entwickelte Produkt anhand von den im Punkt \ref{1b} ausgewählten Methoden. Wie stellt sich das Produkt im Vergleich mit dem alten Design dar?
 	      \end{enumerate}
 \end{enumerate}
 %%%%% ENDE INHALT %%%%%
