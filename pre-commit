@@ -9,16 +9,8 @@
 
 set -e
 
-pdflatex -halt-on-error -interaction=nonstopmode Bewertungskriterien
+pdflatex -halt-on-error -interaction=nonstopmode main
 biber Bewertungskriterien
-pdflatex -halt-on-error -interaction=nonstopmode Bewertungskriterien
-
-pdflatex -halt-on-error -interaction=nonstopmode Präsentation
-biber Präsentation
-pdflatex -halt-on-error -interaction=nonstopmode Präsentation
-
-pdflatex -halt-on-error -interaction=nonstopmode Aufgabe
-biber Aufgabe
-pdflatex -halt-on-error -interaction=nonstopmode Aufgabe
+pdflatex -halt-on-error -interaction=nonstopmode main
 
 git add Aufgabe.pdf Bewertungskriterien.pdf Präsentation.pdf
